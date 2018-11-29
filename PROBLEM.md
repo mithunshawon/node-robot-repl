@@ -9,7 +9,6 @@ Description
   robot falling from the table must be prevented, however further valid
   movement commands must still be allowed.
 
-Create an application that can read in commands of the following (textual) form:
 
     PLACE X,Y,F
     MOVE
