@@ -1,0 +1,23 @@
+{
+  "name": "toy-robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node --verbose --forceexit --color test",
+    "coverage": "istanbul cover --include-all-sources ./node_modules/jasmine/bin/jasmine.js test/*.spec.js",
+    "start": "node ./app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.realestate.com.au:recruiting/toy-robot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.2.0",
+    "jasmine-node": "^1.16.2"
+  }
+}
